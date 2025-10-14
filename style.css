@@ -350,7 +350,7 @@ body {
     object-fit: cover;
     background: #ddd;
     /* YEH LINE ADD KAREIN - Apni photo ka URL daalein */
-    background-image: url('https://ibb.co/S707NKSC');
+    background-image: url('https://i.ibb.co/1GKd0JtD/profile-photo-jpg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -360,3 +360,4 @@ body {
     font-size: 14px;
     text-align: center;
 }
+
