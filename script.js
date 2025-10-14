@@ -16,16 +16,6 @@ function toggleTheme() {
     localStorage.setItem('darkMode', isDarkMode);
 }
 
-// Photo Upload Function
-function handlePhotoUpload(event) {
-    const file = event.target.files[0];
-    if (file) {
-        // Check if file is an image
-        if (!file.type.match('image.*')) {
-            alert('Please upload an image file (JPEG, PNG, etc.)');
-            return;
-        }
-        
         // Check file size (max 2MB)
         if (file.size > 2 * 1024 * 1024) {
             alert('Please upload an image smaller than 2MB');
@@ -47,8 +37,8 @@ function handlePhotoUpload(event) {
             alert('Error reading file. Please try again.');
         }
         reader.readAsDataURL(file);
-    }
-}
+
+
 
 // Download CV Function
 function downloadCV() {
