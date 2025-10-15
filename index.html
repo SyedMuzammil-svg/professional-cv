@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Muzammil | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div style="text-align: center; color: var(--primary);">
+            <i class="fas fa-code fa-spin" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Syed Muzammil</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="./task/index2.html">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span style="color: var(--primary);">Syed Muzammil</span></h1>
+                    <h2>Full Stack Developer & Tech Enthusiast</h2>
+                    <p>Passionate about building innovative web solutions with clean code and exceptional user
+                        experiences. Currently seeking internship opportunities to contribute my skills and grow as a
+                        professional developer.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i>View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i>Let's Connect
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9c3af75d-6624-48b5-af94-f7b7ca654d80.png"
+                        alt="Syed Muzammil working on laptop with code editor in dark theme workspace" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/31361b93-f693-4133-a5c0-585890ae213f.png"
+                        alt="Portrait of Syed Muzammil in professional attire with modern background" />
+                </div>
+                <div class="about-text">
+                    <h3>Coding With Passion</h3>
+                    <p>Hello! I'm Syed Muzammil, a dedicated full-stack developer with a strong foundation in modern web
+                        technologies. My journey in programming started during my computer science studies, and I've
+                        been continuously expanding my skills through hands-on projects and continuous learning.</p>
+                    <p>I believe in writing clean, maintainable code and creating user experiences that are both
+                        beautiful and functional. My approach combines technical expertise with creative problem-solving
+                        to deliver solutions that exceed expectations.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                        projects, or sharing knowledge with the developer community. I'm always excited to take on new
+                        challenges and learn from experienced professionals.</p>
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-download"></i>Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript, Responsive Design, Bootstrap, Tailwind CSS,</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Basic Php,basic laravel</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>React Native, Flutter, Progressive Web Apps, Cross-platform Development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, GitHub, VS Code, Webpack, Docker, AWS, Firebase, Photoshop, Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- <section id="projects" class="projects"><a href="./task/index2.html"></a> -->
+        <!-- <div>
+            <div>
+                <div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./task/course-video.mp4/" />
+                        </div>
+                        <div class="project-content">
+                            <h3>TaskFlow Manager</h3>
+                            <p>Collaborative task management tool with real-time updates, drag-and-drop functionality,
+                                team collaboration, and progress tracking.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">WebSockets</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0d2b58ef-2dd1-4ca5-858c-7400e82b8965.png"
+                                alt="Weather application with dark theme showing forecasts and interactive weather maps" />
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p>Real-time weather application with location detection, 5-day forecast, beautiful data
+                                visualizations, and interactive weather maps.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">API Integration</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fas fa-external-link-alt"></i>See Live
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    <!-- </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p>Email</p>
+                            <p>syed.muzammil@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>Phone</p>
+                            <p>+92 3113777033</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p>Location</p>
+                            <p>Hyderabad, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div>
+                            <p>Education</p>
+                            <p>BS Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo" style="color: var(--primary);">Syed Muzammil</div>
+                <p>© 2024 Syed Muzammil. Built with passion and dedication.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/syed.muzammil_ali2k1?igsh=MTBvb3Nhbmhoazl1Mg=="
+                        class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
